@@ -1,5 +1,4 @@
 {
-    "Summary": "The molecule, 2-amino-9-[(1S,3R,4S)-4-hydroxy-3-(hydroxymethyl)-2-methylidenecyclopentyl]-1H-purin-6-one (a guanosine analog), is predicted to be toxic to the liver and kidneys, but not the lungs. Liver toxicity is suggested by the disruption of critical kinase and phosphatase signaling pathways, which can lead to hepatocyte apoptosis. Renal toxicity is indicated by the activation of p53-dependent DNA damage response pathways, a hallmark of genotoxic stress leading to kidney cell death. The molecule's structure as a nucleoside analog supports these mechanisms, as it is designed to interact with cellular phosphorylation and DNA synthesis machinery, leading to potential off-target effects in these organs. No evidence was provided to support pulmonary toxicity.",
     "Toxicity Predictions": {
         "Liver Toxicity": {
             "Reasoning": [

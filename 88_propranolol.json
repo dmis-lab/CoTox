@@ -1,5 +1,4 @@
 {
-    "Summary": "The molecule, 1-naphthalen-1-yloxy-3-(propan-2-ylamino)propan-2-ol (Propranolol), is predicted to be toxic, particularly to the liver, blood cells, heart, and lungs. The primary mechanisms involve extensive apoptosis and oxidative stress. Pathway analysis highlights xenobiotic metabolism via CYP2E1, leading to reactive intermediates, and a strong induction of the intrinsic apoptotic cascade. GO terms confirm this, specifically pointing to B cell apoptosis, neuron death from oxidative stress, and xenobiotic metabolism. The IUPAC name reveals a structure with a lipophilic naphthalene ring, prone to metabolic activation into toxic species, and a beta-blocker pharmacophore responsible for cardiotoxicity and pulmonary toxicity. The combined evidence suggests multi-organ toxicity driven by both metabolic activation and pharmacological activity.",
     "Toxicity Predictions": {
         "Cardiotoxicity": {
             "Reasoning": [

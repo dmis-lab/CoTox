@@ -64,7 +64,6 @@ Finally, provide a step-by-step explanation of the overall mechanism combining e
 
 ```json
 {
-    "Summary": "A detailed overview that identifies potential toxicities based on Pathway and GO Term analyses, with IUPAC name used to explain structural contributions to the identified mechanisms.",
     "Toxicity Predictions": {
         "Cardiotoxicity": {
             "Reasoning": [
