@@ -1,0 +1,28 @@
+{
+    "entecavir_HEPG2": {
+        "SMILES": "Nc1nc(=O)c2ncn([C@H]3C[C@H](O)[C@@H](CO)C3=C)c2[nH]1",
+        "pathways": [],
+        "go_terms": [
+            "Transmembrane Receptor Protein Tyrosine Phosphatase Activity",
+            "Transmembrane Receptor Protein Phosphatase Activity",
+            "Protein Serine/Threonine/Tyrosine Kinase Activity"
+        ],
+        "iupac_name": "2-amino-9-[(1S,3R,4S)-4-hydroxy-3-(hydroxymethyl)-2-methylidenecyclopentyl]-1H-purin-6-one"
+    },
+    "entecavir_A549": {
+        "SMILES": "Nc1nc(=O)c2ncn([C@H]3C[C@H](O)[C@@H](CO)C3=C)c2[nH]1",
+        "pathways": [],
+        "go_terms": [],
+        "iupac_name": "2-amino-9-[(1S,3R,4S)-4-hydroxy-3-(hydroxymethyl)-2-methylidenecyclopentyl]-1H-purin-6-one"
+    },
+    "entecavir_HA1E": {
+        "SMILES": "Nc1nc(=O)c2ncn([C@H]3C[C@H](O)[C@@H](CO)C3=C)c2[nH]1",
+        "pathways": [
+            "p53-Dependent G1 S DNA Damage Checkpoint",
+            "p53-Dependent G1 DNA Damage Response",
+            "Vif-mediated Degradation of APOBEC3G"
+        ],
+        "go_terms": [],
+        "iupac_name": "2-amino-9-[(1S,3R,4S)-4-hydroxy-3-(hydroxymethyl)-2-methylidenecyclopentyl]-1H-purin-6-one"
+    }
+}

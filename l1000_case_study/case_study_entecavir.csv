@@ -1,0 +1,2 @@
+pert_id,cmap_name,canonical_smiles,inchi_key,compound_aliases,cell_line
+BRD-K08206212,entecavir,Nc1nc(=O)c2ncn([C@H]3C[C@H](O)[C@@H](CO)C3=C)c2[nH]1,QDGZDCVAUDNJFG-FXQIFTODSA-N,,"['1HAE', 'A375', 'A549', 'ASC', 'HA1E', 'HCC515', 'HELA', 'HEPG2', 'HFL1', 'HT29', 'IMR90', 'MCF7', 'NEU', 'NL20', 'NPC', 'PC3', 'PHH', 'SKB', 'VCAP', 'WI38', 'XC.L10', 'YAPC']"
