@@ -1,5 +1,15 @@
 # CoTox: Chain-of-Thought-Based Molecular Toxicity Reasoning and Prediction
+
+[![arXiv](https://img.shields.io/badge/arXiv-paper-red)](https://arxiv.org/abs/2508.03159)
+[![IEEE](https://img.shields.io/badge/IEEE-paper-blue)]([IEEE_URL](https://ieeexplore.ieee.org/document/11356816))
+
 ![img](./_figure/cotox_figure.jpg)
 
-## Abstract
-Drug toxicity remains a major challenge in pharmaceutical development. Recent machine learning models have improved in silico toxicity prediction, but their reliance on annotated data and lack of interpretability limit their applicability. This limits their ability to capture organ-specific toxicities driven by complex biological mechanisms. Large language models (LLMs) offer a promising alternative through step-by-step reasoning and integration of textual data, yet prior approaches lack biological context and transparent rationale. To address this issue, we propose CoTox, a novel framework that integrates LLM with chain-of-thought (CoT) reasoning for multi-toxicity prediction. CoTox combines chemical structure data, biological pathways, and Gene Ontology (GO) terms to generate interpretable toxicity predictions through step-by-step reasoning. Using GPT-4o, we show that CoTox outperforms both traditional machine learning and deep learning model. We further examine its performance across various architectures to identify where CoTox is most effective. Additionally, we find that representing chemical structures with IUPAC names, which are easier for LLMs to understand than SMILES, enhances the model’s reasoning ability and improves predictive performance. To demonstrate its practical utility in drug development, we simulated the treatment of relevant cell types with drug and incorporated the resulting biological context into the CoTox framework. This approach allowed CoTox to generate toxicity predictions aligned with physiological responses, as shown in case studies. These results highlight the potential of LLM-based frameworks to improve interpretability and support early-stage drug safety assessment.
+## Introduction
+Can LLM assess molecular toxicity? 💊💀
+During drug development, it is crucial to identify whether the chemical compound is toxic or not.
+We introduce CoTox, a novel framework that utilizes LLMs for Molecular Toxicity Prediction.
+Unlike traditional models that rely solely on molecular structure, CoTox integrates chemical structures, biological pathways, and GO terms to predict six types of organ-specific toxicities, including cardiotoxicity, hepatotoxicity, and nephrotoxicity.
+By using Chain-of-Thought prompting, CoTox generates step-by-step reasoning for each prediction, offering transparent and interpretable explanations for why a compound might be toxic.
+Interestingly, we also found that IUPAC names work better than SMILES when interfacing with LLMs, thanks to their human-readable format.
+Our findings position CoTox as an interpretable and practical tool for early-stage drug development.
